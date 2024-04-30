@@ -1,0 +1,27 @@
+@font-face{
+font-family: 'Lobster', 'Jersey15', 'Comfortaa';
+src: url(/fonts/Lobster-Regular.ttf);
+src: url(/fonts/Jersey15-Regular.ttf);
+src: url(/fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.button.is-link {
+    background-color: rgb(198, 86, 84);
+}
+
+.text {
+    margin: 10px;
+    color:rgb(36, 55, 55);
+    font-family: 'Lobster', 'jersey15', 'comfortaa', sans-serif;
+}
